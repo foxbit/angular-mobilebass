@@ -20,6 +20,9 @@ import { MeetingFormComponent } from './components/meeting-form/meeting-form.com
 
 // Componentes do form
 import {MatInputModule} from '@angular/material/input';
+import {MatDatepickerModule} from '@angular/material/datepicker';
+import { MatNativeDateModule } from '@angular/material/core';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -38,7 +41,11 @@ import {MatInputModule} from '@angular/material/input';
     MatTableModule,
     MatPaginatorModule,
     MatDialogModule,
-    MatInputModule
+    MatInputModule,
+    MatDatepickerModule,
+    MatNativeDateModule,
+    FormsModule,
+    ReactiveFormsModule
     
   ],
   providers: [],
